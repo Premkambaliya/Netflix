@@ -1,0 +1,281 @@
+/*  *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+body {
+    height: 400vh;
+    width: 105vw;
+    background-image: url(https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/11.netflix-clone/assets/Title-Image.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    overflow-x: hidden;
+}
+.main{
+    height: 400px;
+    /* border: 2px solid red;     */
+}
+.main1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 550px;
+}
+.S1{
+    margin-left: 20px;
+}
+.main2{
+    display: flex;
+    margin-left: 830px;
+    justify-content: space-around;
+}
+.img{
+    margin-left: 10px;
+}
+.Netflixlogo {
+    height: 25px;
+}
+.Netflixsymbol{
+    height: 35px;
+}
+.main3{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    /* border: 2px solid black; */
+}
+.SHOW{
+    color: white;
+    margin-left: 5px;
+}
+.MAID{
+    font-size: 100px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 55px;
+    margin-top: 0px;
+}
+.playbutton{
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: -81px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Play{
+    color: black;
+}
+.infobutton{
+    background-color: rgba(255, 255, 255, 0.406);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 155px;
+    margin-top: -34px;
+    color: white;
+}
+.addicon{
+    margin-left: 1450px;
+    margin-top: 70px;
+    /* border: 2px solid red; */
+}
+.Seeagain{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.SeeAgain{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: -10px;
+    margin-left: 50px;
+}
+.rightarrow{
+    height: 10px;
+}
+.ROW1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie1{
+    width: 250px;
+}
+.Top10{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    margin-left: 49px;
+}
+.Top10inyourcountry{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ROW2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bignumber{
+    height: 180px;
+}
+.movie2{
+    height: 170px;
+    margin-left: -3px;
+}
+
+.Trending{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+}
+.rightarrow{
+    height: 10px;
+}
+.ROW3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie3{
+    width: 250px;
+}
+
+.Sci{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+}
+.rightarrow{
+    height: 10px;
+}
+.ROW4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie4{
+    width: 250px;
+}
+
+.n1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-top: 80px;
+    width: 185px;
+}
+/* .n2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    margin-left: 160px   ;
+    margin-top: 20px;
+    border: 2px solid red;
+    width:  1000px;
+}
+.n3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+      color: gray;
+    margin-left: 160px   ;
+    margin-top: 20px;
+    border: 2px solid red;
+    width:  1000px;
+}
+.n4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+     color: gray;
+    margin-left: 160px   ;
+    margin-top: 20px;
+    border: 2px solid red;
+    width:  1000px;
+}
+.n5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        color: gray;
+    margin-left: 160px   ;
+    margin-top: 20px;
+    border: 2px solid red;
+    width:  1000px;
+} */
+ .n2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 10px;
+ }
+ .n3{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    margin-top: 10px;
+
+ }
+ .n4{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    margin-top: 10px;
+
+ }
+ .n5{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    margin-top: 10px;
+
+ }
+.n11{
+    color: gray;
+    /* margin-left: 25px; */
+
+}
+.n12{
+    color: gray;
+    /* margin-left: 25px; */
+
+}
+.n13{
+    color: gray;
+    /* margin-left: 25px; */
+
+}
+.n14{
+    color: gray;
+    /* margin-left: 25px; */
+
+}
+.r{
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+}
+
+.HizmetKodu{
+    margin-left: 265px;
+    color: gray;
+    border: 3px solid gray;
+    width: fit-content;
+    padding: 10px;
+}
